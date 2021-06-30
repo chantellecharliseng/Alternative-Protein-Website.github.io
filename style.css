@@ -1,0 +1,35 @@
+body{
+   margin: 0;
+   
+}
+.nav-container{
+   background-color: #234F1E;
+   justify-content: center;
+}
+.nav-items{
+   text-align: center;
+}
+
+.header-container{
+   height: 200px;
+   background-color: #98BF64; 
+}
+h1{
+   text-align: center;
+   color: #FFFFFF;
+}
+p{
+   text-align: center;
+   color: #FFFFFF;
+}
+.Get-Started{
+   margin: 0;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   border: none;
+   background-color: #B2D3C2;
+   padding: 15px 32px;
+   text-align: center;
+
+}
