@@ -1,35 +1,117 @@
 body{
    margin: 0;
-   
+   font-family: "Roboto", sans-serif;
 }
-.nav-container{
+
+ul{
+   /* Navigation Bar */
+   list-style-type: none;
+   padding: 0;
+   height: 87px;
+   width: 1187px;
+   margin-left: 253px;
+   margin-top: 0;
+   color: #FFFFFF;
+}
+
+li a{
+   height: 87px;
+   width: 355.5px;
+   float: left;
+   display: flex;
+   color: #FFFFFF;
+   padding-left: 40px;
+   padding-top: 30px;
+   text-decoration: none;
    background-color: #234F1E;
-   justify-content: center;
+   font-size: 24px;
 }
-.nav-items{
-   text-align: center;
+
+li a:hover{
+   background-color: #B2D3C2;
+   text-decoration: underline;
+}
+.logo{
+   position: absolute;
+   width: 253px;
+   height: 87px;
+   top: 0px;
+   background: #C4C4C4;
 }
 
 .header-container{
-   height: 200px;
-   background-color: #98BF64; 
+   position: absolute;
+   width: 1440px;
+   height: 801px;
+   left: 0px;
+   top: 87px;
+
+   background: #98BF64;
 }
+
+/* THE ALTERNATIVE PROTEIN PROJECT. */
 h1{
-   text-align: center;
-   color: #FFFFFF;
-}
-p{
-   text-align: center;
-   color: #FFFFFF;
-}
-.Get-Started{
-   margin: 0;
-   position: relative;
-   top: 50%;
-   left: 50%;
-   border: none;
-   background-color: #B2D3C2;
-   padding: 15px 32px;
+   position: absolute;
+   width: 1400px;
+   height: 320px;
+   left: 31px;
+   top: 40px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 145px;
+   line-height: 176px;
+   display: flex;
+   align-items: center;
    text-align: center;
 
+   color: #FFFFFF;
+}
+
+h2{
+   /* Eat towards a sustainable future, Discover your career. */
+   position: absolute;
+   width: 802px;
+   height: 199;
+   left: 319px;
+   top: 473px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 56px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+.Get-Started{
+   position: absolute;
+   width: 369px;
+   height: 89px;
+   left: 536px;
+   top: 672px;
+   
+   background: #B2D3C2;
+   border-radius: 44.5px;
+   border: none;
+
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: #FFFFFF;
+}
+
+.Title-1{
+   position: absolute;
+   width: 1440px;
+   height: 1794px;
+   left: 0px;
+   top: 888px;
+
+   background: #B2D3C2;
 }
