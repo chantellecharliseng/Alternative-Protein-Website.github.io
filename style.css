@@ -1,0 +1,369 @@
+body{
+   margin: 0;
+   font-family: "Roboto", sans-serif;
+}
+
+ul{
+   /* Navigation Bar */
+   list-style-type: none;
+   padding: 0;
+   height: 87px;
+   width: 1187px;
+   margin-left: 253px;
+   margin-top: 0;
+   color: #FFFFFF;
+}
+
+li a{
+   height: 87px;
+   width: 355.5px;
+   float: left;
+   display: flex;
+   color: #FFFFFF;
+   padding-left: 40px;
+   padding-top: 30px;
+   text-decoration: none;
+   text-align: center;
+   background-color: #234F1E;
+   font-size: 24px;
+}
+
+
+li a:hover{
+   background-color: #B2D3C2;
+   text-decoration: underline;
+}
+.logo{
+   position: absolute;
+   width: 253px;
+   height: 87px;
+   top: 0px;
+   background: #000000;
+}
+
+.header-container{
+   position: absolute;
+   width: 1440px;
+   height: 801px;
+   left: 0px;
+   top: 87px;
+
+   background: #98BF64;
+}
+
+/* THE ALTERNATIVE PROTEIN PROJECT. */
+h1{
+   position: absolute;
+   width: 1400px;
+   height: 320px;
+   left: 31px;
+   top: 40px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 145px;
+   line-height: 176px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+h2{
+   /* Eat towards a sustainable future, Discover your career. */
+   position: absolute;
+   width: 802px;
+   height: 199;
+   left: 375px;
+   top: 473px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 56px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+.Get-Started{
+   position: absolute;
+   width: 369px;
+   height: 89px;
+   left: 536px;
+   top: 672px;
+   
+   background: #B2D3C2;
+   border-radius: 44.5px;
+   border: none;
+
+   text-align: center;
+   font-size: 40px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.Content-Page-1{
+   position: absolute;
+   width: 1440px;
+   height: 1794px;
+   left: 0px;
+   top: 888px;
+
+   background: #B2D3C2;
+}
+
+.Title-1{
+   position: absolute;
+   width: 1408px;
+   height: 153px;
+   left: 0px;
+   top: 46px;
+
+   background: #234F1E;
+}
+p1{
+   position: absolute;
+   width: 1337px;
+   height: 128px;
+   left: 24px;
+   top: 17px;
+
+   font-family: "Roboto", sans-serif ;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 75px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+.Body-1{
+   position: absolute;
+   width: 1408px;
+   height: 1443px;
+   left: 0px;
+   top: 207px;
+
+   background: #FFFFFF;
+}
+
+.Body-1-Section-1{
+   position: absolute;
+   width: 1374px;
+   height: 439px;
+   left: 0px;
+   top: 41px;
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.Body-1-Section-1-Title{
+   position: absolute;
+   width: 500px;
+   height: 70px;
+   left: 0px;
+   top: 0px;
+   background: #234F1E;
+}
+p2{
+   position: absolute;
+   width: 500px;
+   height: 37px;
+   left: 16px;
+   top: 16px;
+   font-family: “Roboto”, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+p3{
+   position: absolute;
+   width: 975px;
+   height: 371px;
+   left: 38px;
+   top: 68px;
+   font-family: “Roboto”, sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   text-align: justify;
+   color: #000000;
+}
+
+.Body-1-Section-2{
+   position: absolute;
+   width: 1374px;
+   height: 439px;
+   left: 34px;
+   top: 529px;
+
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.Body-1-Section-2-Title{
+   position: absolute;
+   width: 490px;
+   height: 70px;
+   left: 884px;
+   top: 3px;
+   
+   background: #234F1E;
+}
+p4{
+   position: absolute;
+   width: 500px;
+   height: 37px;
+   left: 16px;
+   top: 16px;
+   font-family: “Roboto”, sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+p5{
+   position: absolute;
+   width: 976px;
+   height: 340px;
+   left: 364px;
+   top: 73px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   text-align: justify;
+
+   color: #000000;
+}
+
+.Body-1-Section-3{
+   position: absolute;
+   width: 1374px;
+   height: 356px;
+   left: 0px;
+   top: 1017px;
+
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.Body-1-Section-3-Title{
+   position: absolute;
+   width: 515px;
+   height: 66px;
+   left: 0px;
+   top: 0px;
+
+   background: #234F1E;
+}
+p6{
+   position: absolute;
+   width: 515px;
+   height: 64px;
+   left: 16px;
+   top: 1px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+p7{
+   position: absolute;
+   width: 976px;
+   height: 291px;
+   left: 44px;
+   top: 65px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   display: flex;
+   align-items: center;
+   text-align: justify;
+
+   color: #000000;
+}
+
+.What-Alt-Pro
+{
+   position: absolute;
+   width: 508px;
+   height: 99px;
+   left: 900px;
+   top: 1672px;
+
+   background: #98BF64;
+   border-radius: 49.5px;
+   border: none;
+
+   text-align: center;
+   font-size: 30px;
+   color: #FFFFFF;
+   font-weight: bold;
+
+   color: #FFFFFF;
+}
+
+.Contact{
+   position: absolute;
+   width: 1440px;
+   height: 213px;
+   left: 0px;
+   top: 2682px;
+
+   background: #234F1E;
+}
+p8{
+   position: absolute;
+   width: 330px;
+   height: 49px;
+   left: 131px;
+   top: 33px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 56px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+   
