@@ -15,7 +15,7 @@ ul{
 }
 
 li a{
-   height: 87px;
+   height: 57px;
    width: 355.5px;
    float: left;
    display: flex;
@@ -366,4 +366,58 @@ p8{
 
    color: #FFFFFF;
 }
+
+/* Styling for Content Page 2*/
+.Content-Page-2{
+   width: 1440px;
+   height: 1575px;
+   background-color: #B2D3C2;
+
+}
+.Title-2{
+   position: absolute;
+   width: 1440px;
+   height: 296px;
+   left: 0px;
+   top: 87px;
    
+   background: #234F1E;
+}
+p9{
+   position: absolute;
+   width: 1176px;
+   height: 65px;
+   left: 127px;
+   top: 125px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 75px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+.CP2-Intro{
+   position: absolute;
+   width: 1369px;
+   height: 191px;
+   left: 35px;
+   top: 448px;
+   
+   background: #FFFFFF;
+}
+p10{
+   position: absolute;
+   width: 1306px;
+   height: 126px;
+   left: 32px;
+   top: 37px;
+   font-family: "Roboto", sans-serif;
+   font-size: 36px;
+   text-align: center;
+}
