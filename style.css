@@ -421,3 +421,96 @@ p10{
    font-size: 36px;
    text-align: center;
 }
+
+.Plant-Based{
+   position: absolute;
+   width: 450px;
+   height: 546px;
+   left: 8px;
+   top: 704px;
+   
+   background: #98BF64;
+}
+
+.Lab-Grown{
+   position: absolute;
+   width: 450px;
+   height: 546px;
+   left: 495px;
+   top: 704px;
+
+   background: #98BF64;
+}
+
+.Fermented{
+   position: absolute;
+   width: 450px;
+   height: 546px;
+   left: 982px;
+   top: 704px;
+
+   background: #98BF64;
+}
+
+/* styling for content page 3 */
+
+.Content-Page-3{
+   width: 1440px;
+   height: 1575px;
+   background-color: #B2D3C2;
+}
+
+.Title-3{
+   position: absolute;
+   width: 1440px;
+   height: 219px;
+   left: 0px;
+   top: 87px;
+
+   background: #234F1E;
+}
+p11{
+   position: absolute;
+   width: 1440px;
+   height: 136px;
+   top: 55px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 80px;
+   line-height: 112px;
+   text-align: center;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.field-study-container{
+   position: absolute;
+   width: 1364px;
+   height: 933px;
+   left: 0px;
+   top: 350px;
+
+   background: #FFFFFF; 
+}
+.field-study-title{
+   position: absolute;
+   width: 758px;
+   height: 84px;
+   left: 0px;
+   top: 30px;
+
+   background: #234F1E;
+}
+p12{
+   position: absolute;
+   top: 20px;
+   left: 50px;
+
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 47px;
+   color: #FFFFFF;
+}
