@@ -173,6 +173,13 @@ p1{
    top: 0px;
    background: #234F1E;
 }
+
+.ewb_image {
+   position: absolute;
+   right: 60px;
+   top: 150px;
+}
+
 p2{
    position: absolute;
    width: 500px;
