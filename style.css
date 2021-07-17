@@ -8,10 +8,10 @@ ul{
    list-style-type: none;
    padding: 0;
    height: 87px;
-   width: 1187px;
-   margin-left: 253px;
+   margin-left: 0px;
    margin-top: 0;
    color: #FFFFFF;
+   align-items: center;
 }
 
 li a{
@@ -20,7 +20,7 @@ li a{
    float: left;
    display: flex;
    color: #FFFFFF;
-   padding-left: 40px;
+   padding-left: 0px;
    padding-top: 30px;
    text-decoration: none;
    text-align: center;
@@ -32,13 +32,6 @@ li a{
 li a:hover{
    background-color: #B2D3C2;
    text-decoration: underline;
-}
-.logo{
-   position: absolute;
-   width: 253px;
-   height: 87px;
-   top: 0px;
-   background: #000000;
 }
 
 .header-container{
