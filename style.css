@@ -16,7 +16,7 @@ ul{
 
 li a{
    height: 57px;
-   width: 355.5px;
+   width: 359.765px;
    float: left;
    display: flex;
    color: #FFFFFF;
@@ -456,7 +456,7 @@ p10{
 
 .Content-Page-3{
    width: 1440px;
-   height: 1575px;
+   height: 1230px;
    background-color: #B2D3C2;
 }
 
@@ -485,21 +485,32 @@ p11{
    color: #FFFFFF;
 }
 
-.field-study-container{
+.field-study-background{
    position: absolute;
    width: 1364px;
    height: 933px;
    left: 0px;
    top: 350px;
 
-   background: #FFFFFF; 
+   background: #FFFFFF;
 }
+
+.field-study-container{
+   position: absolute;
+   width: 1324px;
+   height: 177px;
+   left: 0px;
+   top: 50px;
+
+   background: rgba(178, 211, 194, 0.2);
+}
+
 .field-study-title{
    position: absolute;
    width: 758px;
    height: 84px;
    left: 0px;
-   top: 30px;
+   top: 0px;
 
    background: #234F1E;
 }
@@ -513,4 +524,98 @@ p12{
    font-size: 40px;
    line-height: 47px;
    color: #FFFFFF;
+}
+
+.career-fields-container{
+   position: absolute;
+   width: 1309px;
+   height: 607px;
+   left: 55px;
+   top: 280px;
+
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.career-fields-title{
+   position: absolute;
+   width: 356px;
+   height: 87px;
+   right: 0px;
+   top: 0px;
+
+   background: #234F1E;
+}
+p13{
+   position: absolute;
+   width: 350px;
+   height: 69px;
+   right:-12px;
+   top: 10px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
+/* content page 4 - recipes */
+
+.Content-Page-4{
+   position: absolute;
+   width: 1440px;
+   height: 2000px;
+   background: #B2D3C2;
+}
+
+
+
+.lets-eat-container{
+   position: absolute;
+   width: 645px;
+   height: 257px;
+   left: 75px;
+   top: 154px;
+   background: #234F1E; 
+}
+p14{
+   position: absolute;
+   width: 600px;
+   height: 95px;
+   left: 20px;
+   top: 20px;
+   font-family: "Roboto", sans-serif;   
+   font-size: 96px;
+   line-height: 112px;
+   display: flex;
+   color: #FFFFFF;
+}
+p15{
+   position: absolute;
+   width: 600px;
+   height: 103px;
+   left: 26px;
+   top: 130px;
+
+   font-family: "Roboto", sans-serif;
+   font-size: 36px;
+   line-height: 42px;
+   display: flex;
+   align-items: center;
+   color: #FFFFFF;
+}
+
+.video-container{
+   position: absolute;
+   width: 755px;
+   height: 378px;
+   left: 573px;
+   top: 2px;
+
+   background: #B2D3C2;
 }
