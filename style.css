@@ -570,10 +570,9 @@ p13{
    position: absolute;
    width: 1440px;
    height: 2000px;
+   top: 87px;
    background: #B2D3C2;
 }
-
-
 
 .lets-eat-container{
    position: absolute;
@@ -615,7 +614,7 @@ p15{
    width: 755px;
    height: 378px;
    left: 573px;
-   top: 2px;
+   top: 450px;
 
    background: #B2D3C2;
 }
