@@ -520,7 +520,20 @@ p10{
 }
 
 .Plant-Based-How-Made-Container{
-   
+   position: absolute;
+   width: 1318px;
+   height: 255px;
+   left: 61px;
+   top: 300px;
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.Plant-Based-How-Made-Title-Container{
+   position: absolute;
+   width: 318px;
+   height: 85px;
+   left: 61px;
+   top: 300px;
 }
 
 /* styling for content page 3 */
