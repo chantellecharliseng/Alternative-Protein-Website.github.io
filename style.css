@@ -454,6 +454,75 @@ p10{
    background: #98BF64;
 }
 
+/* styling for Plant Based Page*/
+.Plant-Based-Page{
+   position: relative;
+   width: 1440px;
+   height: 1353px;
+   background: #B2D3C2;
+}
+
+.Plant-Based-Title-Container{
+   position: absolute;
+   width: 581px;
+   height: 458px;
+   left: 0px;
+   top: 0px;
+   background: #234F1E;
+}
+
+.Plant-Based-Title{
+   position: absolute;
+   width: 317px;
+   height: 324px;
+   left: 131px;
+   top: 67px;
+
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 96px;
+   line-height: 112px;
+   color: #FFFFFF;
+}
+
+.Plant-Based-Content{
+   position: absolute;
+   width: 1379px;
+   height: 611px;
+   left: 0px;
+   top: 500px;
+   background: #FFFFFF;
+}
+
+.Plant-Based-Intro-Container{
+   position: absolute;
+   width: 1330px;
+   height: 192px;
+   left: 0px;
+   top: 50px;
+
+   background: rgba(178, 211, 194, 0.2);
+}
+
+.Plant-Based-Intro{
+   position: absolute;
+   width: 1243px;
+   height: 134px;
+   left: 37px;
+   top: 45px;
+
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.Plant-Based-How-Made-Container{
+   
+}
+
 /* styling for content page 3 */
 
 .Content-Page-3{
