@@ -534,9 +534,21 @@ p10{
    height: 85px;
    left: 0px;
    top: 0px;
-    c
+   background: #234F1E;
 }
 
+.Plant-Based-How-Made-Title{
+   position: absolute;
+   width: 300px;
+   height: 58px;
+   left: 20px;
+   top: 23px;
+
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 36px;
+   color: #FFFFFF;
+}
 
 /* styling for content page 3 */
 
