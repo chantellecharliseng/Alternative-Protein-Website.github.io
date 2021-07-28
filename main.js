@@ -9,11 +9,12 @@ var block = document.getElementById("block");
 - this function is initialized by the "onlick" at the top of the game.html file 
 */
 function leap(){
-   if(character.classList == "animate"){return}
-   character.classList.add("animate");
-   setTimeout(function(){
-   character.classList.remove("animate");
-   },300);
+   if(character.classList != "animate"){
+      character.classList.add("animate");
+   }
+      setTimeout(function(){
+         character.classList.remove("animate");
+      },500);
 }
 
 
