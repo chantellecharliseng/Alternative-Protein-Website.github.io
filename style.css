@@ -339,14 +339,6 @@ p7{
    color: #FFFFFF;
 }
 
-.Contact{
-   position: absolute;
-   width: 1440px;
-   height: 213px;
-   left: 0px;
-   top: 2682px;
-
-   background: #234F1E;
 }
 p8{
    position: absolute;
@@ -549,6 +541,20 @@ p10{
    font-size: 36px;
    color: #FFFFFF;
 }
+
+.Plant-Based-How-Made-Info{
+   position: absolute;
+   width: 1225px;
+   height: 153px;
+   left: 37px;
+   top: 113px;
+   font-family: "Roboto", sans-serif;
+   font-size: 24px;
+   line-height: 28px;
+   display: flex;
+   color: #000000;
+}
+
 
 /* styling for content page 3 */
 
