@@ -17,13 +17,39 @@ a{
 a:hover{
    text-decoration: underline;
 }
+
+.whatarebtn{
+   background-color: #04AA6D;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+}
 .whatare{
    position: absolute;
    left: 200px;
    top: 26px;
    font-size: 23px;
-   
 }
+.whatare-dropdown{
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+.whatare-dropdown a{
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+.whatare-dropdown a:hover{background-color: #B2D3C2;}
+.whatare:hover .whatare-dropdown {display: block;}
+.whatare:hover .whatarebtn {background-color: #3e8e41;}
+
+
 .careerguide{
    position: absolute;
    left: 600px;
