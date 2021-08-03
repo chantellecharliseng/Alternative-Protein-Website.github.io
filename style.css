@@ -3,43 +3,59 @@ body{
    font-family: "Roboto", sans-serif;
 }
 
-ul{
-   /* Navigation Bar */
-   list-style-type: none;
-   padding: 0;
-   height: 87px;
-   margin-left: 0px;
-   margin-top: 0;
-   color: #FFFFFF;
-   align-items: center;
-}
-
-li a{
-   height: 57px;
-   width: 359.765px;
-   float: left;
-   display: flex;
-   color: #FFFFFF;
-   padding-left: 0px;
-   padding-top: 30px;
-   text-decoration: none;
-   text-align: center;
+.nav-bar{
+   position: absolute;
+   width: 1440px;
+   height: 77px;
    background-color: #234F1E;
-   font-size: 24px;
 }
 
-
-li a:hover{
-   background-color: #B2D3C2;
+a{
+   color: white;
+   text-decoration: none;
+}
+a:hover{
    text-decoration: underline;
 }
+.whatare{
+   position: absolute;
+   left: 200px;
+   top: 26px;
+   font-size: 23px;
+   
+}
+.careerguide{
+   position: absolute;
+   left: 600px;
+   top: 26px;
+   font-size: 23px;
+}
+.projects{
+   position: absolute;
+   left: 845px;
+   top: 26px;
+   font-size: 23px;
+}
+.recipes{
+   position: absolute;
+   left: 1045px;
+   top: 26px;
+   font-size: 23px;
+}
+.whoweare{
+   position: absolute;
+   left: 1250px;
+   top: 26px;
+   font-size: 23px;
+}
+
 
 .header-container{
    position: absolute;
    width: 1440px;
    height: 801px;
    left: 0px;
-   top: 87px;
+   top: 77px;
 
    background: #98BF64;
 }
@@ -106,7 +122,7 @@ h2{
    width: 1440px;
    height: 1794px;
    left: 0px;
-   top: 888px;
+   top: 878px;
 
    background: #B2D3C2;
 }
