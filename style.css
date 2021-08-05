@@ -5,7 +5,7 @@ body{
 
 .nav-bar{
    position: absolute;
-   width: 1440px;
+   width: 100%;
    height: 77px;
    background-color: #234F1E;
 }
@@ -78,11 +78,10 @@ a:hover{
 
 .header-container{
    position: absolute;
-   width: 1440px;
+   width: 100%;
    height: 801px;
    left: 0px;
    top: 77px;
-
    background: #98BF64;
 }
 
@@ -91,7 +90,7 @@ h1{
    position: absolute;
    width: 1400px;
    height: 320px;
-   left: 31px;
+   left: 40%;
    top: 40px;
 
    font-family: "Roboto", sans-serif;
@@ -130,7 +129,7 @@ h2{
    position: absolute;
    width: 369px;
    height: 89px;
-   left: 536px;
+   left: 45%;
    top: 672px;
    
    background: #B2D3C2;
@@ -145,11 +144,10 @@ h2{
 
 .Content-Page-1{
    position: absolute;
-   width: 1440px;
+   width: 100%;
    height: 1794px;
    left: 0px;
    top: 878px;
-
    background: #B2D3C2;
 }
 
