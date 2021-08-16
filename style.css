@@ -30,6 +30,32 @@ hr{
    color: black !important;
 }
 
+/*Index*/
+.peas-image{
+   position: relative;
+   text-align: center;
+   color: white;
+}
+.display-1 {
+   font-weight: bold !important;
+   font-size: 100px !important;
+   color: #234F1E;
+   position: absolute;
+   top: 20%;
+   left: 16px;
+   right: 16px;
+  
+ }
+ .display-3{
+   font-size: 50px !important;
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+
+
+
 /*Carousel for Lab Grown, Plant Based, Fermented*/
 .carousel-inner img{
    max-width: 100%;
@@ -54,86 +80,11 @@ hr{
 
 
  /* previous css - valid, but reorganize*/
-.whatare{
-   position: absolute;
-   left: 14%;
-   min-width: 162px;
-   top: 26px;
-   font-size: 23px;
-}
-.whatare-dropdown{
-   display: none;
-   position: absolute;
-   background-color: #f1f1f1;
-   min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
-}
-.whatare-dropdown a{
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display: block;
-}
-.whatare-dropdown a:hover{background-color: #B2D3C2;}
-.whatare:hover .whatare-dropdown {display: block;}
-.whatare:hover .whatarebtn {background-color: #3e8e41;}
-
-.careerguide{
-   position: absolute;
-   left: 41%;
-   top: 26px;
-   font-size: 23px;
-   color: white !important;
-}
-.projects{
-   position: absolute;
-   left: 60%;
-   top: 26px;
-   font-size: 23px;
-}
-.recipes{
-   position: absolute;
-   left: 70%;
-   top: 26px;
-   font-size: 23px;
-}
-.whoweare{
-   position: absolute;
-   left: 90%;
-   top: 26px;
-   font-size: 23px;
-}
-
-
-.header-container{
-   position: absolute;
-   width: 100%;
-   height: 801px;
-   left: 0px;
-   top: 77px;
-   background: #98BF64;
+.
 }
 
 /* THE ALTERNATIVE PROTEIN PROJECT. */
-h1{
-   position: absolute;
-   width: 1400px;
-   height: 320px;
-   left: 40%;
-   top: 40px;
 
-   font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 900;
-   font-size: 145px;
-   line-height: 176px;
-   display: flex;
-   align-items: center;
-   text-align: center;
-
-   color: #FFFFFF;
-}
 
 h2{
    /* Eat towards a sustainable future, Discover your career. */
