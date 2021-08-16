@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Grown</title>
+  <!-- Link to stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-   
+  <nav class = "navbar navbar-expand-md sticky-top">
+    <div class = "container-fluid">
+      <a class = "navbar-brand" href = "index.html">
+        <img src = "website_images/homephoto.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class = "navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarRespnsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" id="dropdownArrow" data-toggle="dropdown" 
+              href="#">What Are Alternative Proteins</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="labgrown.html">Lab Grown Meat</a>
+                <a class="dropdown-item" href="plantbased.html">Plant Based Meat</a>
+                <a class="dropdown-item" href="fermented.html">Fermented Meat</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="careerguide.html">Career Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="whoweare.html">Who We Are</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Image Slider-->
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <!-- the data target references the div id, slides-->
+      <li data-target="#slides" data-slide-to="0"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active" class="img-fluid">
+        <img src="website_images/petridish.png" class="rounded mx-auto d-block">
+        <div class="carousel-caption">
+          <p class="display-2">Lab Grown Meat</p>
+          <h3>Can't give up traditional meat? That's okay!</h3>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item-expand">
+        <img src="website_images/markpost.png" class="rounded mx-auto d-block">
+        <div class="carousel-caption col-xs-12">
+          <p class="display-2">Lab Grown Meat</p>
+          <h3>Can't give up traditional meat? That's okay!</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="website_images/labchicken.png" class="rounded mx-auto d-block">
+        <div class="carousel-caption col-xs-12">
+          <p class="display-2">Lab Grown Meat</p>
+          <h3>Can't give up traditional meat? That's okay!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Jumbotron (a built in class in bootstrap)-->
+<div class="container-fluid">
+  <div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+    </div>
+    <p class="lead text-justify">
+      Often when people think of alternative proteins, they think meat substitutes such as Plant Based Meat meat. However, Lab Grown meats are not made from plants. In fact, they taste like real meat because they ARE real meat! They provide options for people who are unable to reduce meat from their diets to eat sustainably as well.
+    </p>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+    </div>
+  </div>
+</div>
+
+<!-- Welcome Section-->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <br>
+      <p class="display-4">What's the problem?</p>
+    </div>
+    <div class="col-12">
+      <p class="lead text-justify">
+        Traditional meat farming is less sustainable than vegetable farming. However, only 17% of Canadians choose to make an active effort to reduce their meat consumption. This 17% consists of vegetarians, vegans, and flexitarians (a new diet termed coined for people who are "flexible", and will only eat meat when necessary).<br><br>
+        The problem lies in the fact that conventional meat is simply too tasty, rooted in too many cultural practices and traditions, making it too difficult to give up. Lab-grown meat is a solution to these barriers.</p>
+        <br><hr><br>
+    </div>
+    <div class="col-12">
+      <p class="display-4">What is Lab Grown Meat?</p>
+    </div>
+    <div class="col-12">
+      <p class=  "lead text-justify" >
+        At a cellular level, lab-grown meat is the same as regular meat. However, the method of farming and growth is different as it is made in a controlled laboratory environment.
+        <br><br>
+        The production of lab-based meats occurs over a 2 to 8 week period, depending on the type of cultivated meat. To start, an animal’s stem cells are banked and subsequently cultivated in bioreactors, where they are fed an oxygenated culture medium composed of basic nutrients and protein supplements necessary for growth. Over time, changes in medium composition initiate differentiation amongst cells to produce the various components of meat, such as skeletal muscle, fat, and connective tissue, until they can be harvested and prepared into the final meat product. 
+        <br><br><br> 
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--Three Column Section-->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    
+  </div>
+</div>  
+
+
 </body>
+
+<!-- Footer -->
+<footer class=" text-center text-lg-start">
+  <!-- social media-->
+
+  <section class="contact-information d-flex justify-content-center justify-content-lg-between p-3 ">
+    <div class="d-none d-lg-block">
+      <p class="connect">Connect with us on social media!</p>
+    </div>
+    <div>
+      <a href="https://www.facebook.com/ewbuw" class="social-icons">
+        <img src="website_images/facebook.png">
+      </a>
+
+      <a href="https://www.instagram.com/engineerswithoutbordersuw/" class="social-icons">
+        <img src="website_images/instagram.png">
+      </a>
+
+      <a href="mailto:uwaterloo@ewb.ca" class="social-icons">
+        <img src="website_images/mail.png">
+      </a>
+    </div>
+  </section>
+
+  <section class="by-line text-center p-1">
+    <a href="whoaweare.html" class="by-line">
+      Engineers Without Borders @ University of Waterloo (Published August 2021)
+    </a>
+  </section>
+
+</footer>
 </html>
+
+
+
+
+	

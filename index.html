@@ -6,54 +6,63 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Welcome</title>
    <link rel="stylesheet" href="style.css">
-   <!--Bootstrap-->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+   <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-
-
-
-   <div class = "nav-bar">
-      <div class = "homephoto">
-         <a href = "index.html">
-            <img src="website_images/homephoto.png">
-         </a>
+   <nav class = "navbar navbar-expand-md sticky-top">
+      <div class = "container-fluid">
+        <a class = "navbar-brand" href = "index.html">
+          <img src = "website_images/homephoto.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRespnsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownArrow" data-toggle="dropdown" 
+                href="#">What Are Alternative Proteins</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="labgrown.html">Lab Grown Meat</a>
+                  <a class="dropdown-item" href="plantbased.html">Plant Based Meat</a>
+                  <a class="dropdown-item" href="fermented.html">Fermented Meat</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careerguide.html">Career Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoweare.html">Who We Are</a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
 
 
-      <div class = "whatare">
-         <button class = "whatarebtn">What Are Alternative Proteins</button>
-         <div class = "whatare-dropdown">
-            <a href = "plantbased.html">Plant Based Meat</a>
-            <a href = "labgrown.html">Lab Grown Meat</a>
-            <a href = "fermented.html">Fermented Meat</a>
-         </div>
-      </div>
-
-      <div class = "careerguide">
-         <a href = "careerguide.html">Career Guide</a>
-      </div>
-      <div class = "projects">
-         <a href = "projects.html">Projects</a>
-      </div>
-      <div class = "recipes">
-         <a href = "recipes.html">Recipes</a>
-      </div>
-      <div class = "whoweare">
-         <a href = "whoweare.html">Who We Are</a>
-      </div>
-   </div>
-
-
-   <div class="header-container">
       <header>
-         <div class = "row">
+         <img src="website_images/peas.png"
 
-            <div class="col-md-12">
+
+
+         <div class = "container">
+
                <h1>THE ALTERNATIVE<br> PROTEIN PROJECT.</h1>
                <h2> Eat towards a sustainable future,<br>Discover your career.</h2> 
-            </div>
+            
             <!-- scroll down to the content part of the index page by clicking this button-->
             <button class = "Get-Started">Get Started</button>
          </div>
@@ -116,9 +125,7 @@
    </footer>
    <-->
    <script src="main.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    
-      
    
 
 </body>
