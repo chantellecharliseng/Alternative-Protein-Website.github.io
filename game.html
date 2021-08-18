@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" onclick="leap()">
+<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Game</title>
-  <link rel = "stylesheet" href="style.css">
+   <title>Hidden game hehe</title>
+   <link rel = "stylesheet" href = "game.css">
 </head>
-<body>
-   <div id="game">
-      <div id="character"></div>
-      <div id="block"></div>
-   </div>
-   
+<header>   
+
+<body onload="startGame()">
+   <h1> Your EWB Venture </h1>
+   <div id = "game">
+      <div id = "character">
+        <img src = "website_images/ewbpersonresize.png"/> 
+      </div>
+   </div>     
+
+                        <!-- Skill Testing Questions-->
+   <!-- Door 1 -->
+   <p id="Question-1"></p>
+   <div id="Question-1-Options"></div>  
+
+   <!-- Door 2-->
+   <p id="Question-2"></p>
+   <div id="Question-2-Options"></div>  
+
+
+
+   <script src = "game.js"></script>
 </body>
-<script src = "main.js"></script>
 </html>
+
+
+  
+</div>
