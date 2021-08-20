@@ -5,32 +5,58 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Recipes</title>
-   <link rel = "stylesheet" href="style.css">
+   <!-- Link to stylesheet-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Bootstrap-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-   <div class = "nav-bar">
-      <div class = "homephoto">
-         <a href = "index.html">
-            <img src="website_images/homephoto.png">
-         </a>
+   <nav class = "navbar navbar-expand-md sticky-top">
+      <div class = "container-fluid">
+        <a class = "navbar-brand" href = "index.html">
+          <img src = "website_images/homephoto.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRespnsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownArrow" data-toggle="dropdown" 
+                href="#">What Are Alternative Proteins</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="labgrown.html">Lab Grown Meat</a>
+                  <a class="dropdown-item" href="plantbased.html">Plant Based Meat</a>
+                  <a class="dropdown-item" href="fermented.html">Fermented Meat</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careerguide.html">Career Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoweare.html">Who We Are</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class = "whatare">
-         <a href = "whatarealternativeproteins.html">What Are Alternative Proteins</a>
-      </div>
-      <div class = "careerguide">
-         <a href = "careerguide.html">Career Guide</a>
-      </div>
-      <div class = "projects">
-         <a href = "projects.html">Projects</a>
-      </div>
-      <div class = "recipes">
-         <a href = "recipes.html">Recipes</a>
-      </div>
-      <div class = "whoweare">
-         <a href = "whoweare.html">Who We Are</a>
-      </div>
-   </div>
+    </nav>
 
+   <!-- 
    <div class = "Content-Page-4">
       <div style = "background-image">
          <a href = "https://images.immediate.co.uk/production/volatile/sites/2/2019/12/Vegan-Thai-red-curry-a716ab7-scaled.jpg?quality=45&resize=768,574"></a>
@@ -53,15 +79,37 @@
          </div>
       </div>
    </div>
-   
-     
+   -->
+   next steps: find recipes!!
+   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
-
-   <footer>
-      <div class = "Contact">
-         <p8>CONTACT US!</p8>
+   <!-- Footer -->
+   <footer class="text-center text-lg-start">
+      <!-- social media-->
+      <section class="contact-information d-flex justify-content-center justify-content-lg-between p-3 ">
+      <div class="d-none d-lg-block">
+         <p class="connect">Connect with us on social media!</p>
       </div>
+      <div>
+         <a href="https://www.facebook.com/ewbuw" class="social-icons">
+            <img src="website_images/facebook.png">
+         </a>
+   
+         <a href="https://www.instagram.com/engineerswithoutbordersuw/" class="social-icons">
+            <img src="website_images/instagram.png">
+         </a>
+   
+         <a href="mailto:uwaterloo@ewb.ca" class="social-icons">
+            <img src="website_images/mail.png">
+         </a>
+      </div>
+      </section>
+   
+      <section class="by-line text-center p-1">
+      <a href="whoaweare.html" class="by-line">
+         Engineers Without Borders @ University of Waterloo (Published August 2021)
+      </a>
+      </section>
    </footer>
 </body>
 </html>
