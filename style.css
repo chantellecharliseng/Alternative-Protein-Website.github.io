@@ -99,6 +99,14 @@ hr{
    border: none;
 }
 
+/* Science (Linked from Career Guide*/
+career-captions{
+   font-size: 200px !important;
+}
+.biology-dropdown{
+   color: blue !important;
+}
+
 
  /* previous css - valid, but reorganize*/
 
