@@ -37,7 +37,6 @@ hr{
    color: white;
    background-color: #98BF64;
 }
-
 .display-1 {
    font-weight: normal !important;
    font-size: 130px !important;
@@ -47,9 +46,7 @@ hr{
    top: 35%;
    transform: translate(-50%, -50%);
    left: 50%;
-   text-shadow: -3px -3px 0 #98BF64, 3px -3px 0 #98BF64, -3px 3px 0 #98BF64, 3px 3px 0 #98BF64;
-
-  
+   text-shadow: -3px -3px 0 #234f1E, 3px -3px 0 #234f1E, -3px 3px 0 #234f1E, 3px 3px 0 #234f1E;
  }
  .display-3{
    font-size: 50px !important;
@@ -57,15 +54,13 @@ hr{
    top: 75%;
    left: 50%;
    transform: translate(-50%, -50%);
+ }
 
-
-
-
-/*Carousel for Lab Grown, Plant Based, Fermented*/
-.carousel-inner img{
+/*Lab Grown, Plant Based, Fermented*/
+ .carousel-inner{
    max-width: 100%;
    height: 100%;
- }
+}
  .carousel-item {
    transition: -webkit-transform 0.5s ease;
    transition: transform 0.5s ease;
@@ -75,18 +70,30 @@ hr{
  }
  .carousel-caption{
    top: 100px;
+   color: #234F1E !important;
+   text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
  }
-
  .jumbotron{
-    background-color: #B2D3C2 !important;
- }
+   background-color: #B2D3C2 !important;
+}
+.display-4{
+   color: #234F1E;
+   font-size: 60px !important;
+}
+
+/* Career Guide*/
+.CareerGuide-BackgroundP{
+   background-color: #234F1E !important;
+}
+
+
+
 
 
 
 
  /* previous css - valid, but reorganize*/
-.
-}
+
 
 /* THE ALTERNATIVE PROTEIN PROJECT. */
 
@@ -130,21 +137,15 @@ h2{
 
 .Content-Page-1{
    position: absolute;
+   left: 0px;
+  
+   background: #B2D3C2;
    width: 100%;
    height: 1794px;
-   left: 0px;
    top: 878px;
-   background: #B2D3C2;
+   
 }
 
-.Title-1{
-  
-   
-
-   
-
-   background: #234F1E;
-}
 
 p1{
    position: absolute;

@@ -5,40 +5,142 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Plant Based</title>
-   <link rel = "stylesheet" href="style.css">
+<!-- Link to stylesheet-->
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-   <div class = "Plant-Based-Page">
-      <div class = "Plant-Based-Title-Container">
-         <div class = "Plant-Based-Title">
-            PLANT BASED MEATS
+   <nav class = "navbar navbar-expand-md sticky-top">
+      <div class = "container-fluid">
+        <a class = "navbar-brand" href = "index.html">
+          <img src = "website_images/homephoto.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRespnsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownArrow" data-toggle="dropdown" 
+                href="#">What Are Alternative Proteins</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="labgrown.html">Lab Grown Meat</a>
+                  <a class="dropdown-item" href="plantbased.html">Plant Based Meat</a>
+                  <a class="dropdown-item" href="fermented.html">Fermented Meat</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careerguide.html">Career Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoweare.html">Who We Are</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!--Image Slider-->
+   <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+      <!-- the data target references the div id, slides-->
+      <li data-target="#slides" data-slide-to="0"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+      <div class="carousel-item active" class="img-fluid">
+         <img src="website_images/beyondmeat.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption">
+            <p class="display-2">Plant Based Meat</p>
+            <h3>Want to eat cruelty-free meat? Go plant based!</h3>
          </div>
       </div>
-
-      <div class = "Plant-Based-Content">
-         <div class = "Plant-Based-Intro-Container">
-            <div class = "Plant-Based-Intro">
-               Have you ever been to Burger King and ordered the Impossible Whopper? Or been to A&W and ordered the Beyond Meat Burger? Both of these products are plant-based meats. As consumers, those are what we define as alternative protein products. However, there is so much more to the plant-based meat spectrum than just these orders from fast-food chains!
-            </div>
+      <div class="carousel-item carousel-item-expand">
+         <img src="website_images/impossibleburger.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption col-xs-12">
+            <p class="display-2">Plant Based Meat</p>
+            <h3>Want to eat cruelty-free meat? Go plant based!</h3>
          </div>
-
-         <div class = "Plant-Based-How-Made-Container">
-            <div class = "Plant-Based-How-Made-Title-Container">
-               <div class = "Plant-Based-How-Made-Title">
-                  HOW IT'S MADE
-               </div>
-            </div>
-            <div class = "Plant-Based-How-Made-Info">
-               Plant-based meat is produced directly from plants. Instead of relying on an animal to convert plants into meat, we can make meat more efficiently by skipping the animal and turning plant ingredients directly into meat. Like animal-based meat, plant-based meat is composed of protein, fat, vitamins, minerals, and water. Next-generation plant-based meat looks, cooks, and tastes like conventional meat. 
-            </div>
+      </div>
+      <div class="carousel-item">
+         <img src="website_images/rebellyousfoods.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption col-xs-12">
+            <p class="display-2">Plant Based Meat</p>
+            <h3>Want to eat cruelty-free meat? Go plant based!</h3>
          </div>
+      </div>
       </div>
    </div>
 
-   <footer>
-      <div class = "Contact">
-         <p8>CONTACT US!</p8>
+   <!-- Welcome Section-->
+   <div class="container-fluid padding">
+      <div class="row welcome text-center">
+      <div class="col-12">
+         <br>
+         <p class="display-4 Meat-Headings">Introduction</p>
       </div>
-   </footer>
+      <div class="col-12">
+         <p class="lead text-justify">
+            Have you ever been to Burger King and ordered the Impossible Whopper? Or been to A&W and ordered the Beyond Meat Burger? Both of these products are plant-based meats. As consumers, those are what we define as alternative protein products. However, there is so much more to the plant-based meat spectrum than just these orders from fast-food chains!<br>
+            <br><hr><br>
+      </div>
+      <div class="col-12">
+         <p class="display-4">How is Plant Based Meat Made?</p>
+      </div>
+      <div class="col-12">
+         <p class=  "lead text-justify" >
+            Plant-based meat is produced directly from plants. Instead of relying on an animal to convert plants into meat, we can make meat more efficiently by skipping the animal and turning plant ingredients directly into meat. Like animal-based meat, plant-based meat is composed of protein, fat, vitamins, minerals, and water. Next-generation plant-based meat looks, cooks, and tastes like conventional meat. 
+            <br><br>
+         </p>
+      </div>
+      </div>
+   </div>
 </body>
+
+<!-- Footer -->
+<footer class=" text-center text-lg-start">
+   <!-- social media-->
+   <section class="contact-information d-flex justify-content-center justify-content-lg-between p-3 ">
+     <div class="d-none d-lg-block">
+       <p class="connect">Connect with us on social media!</p>
+     </div>
+     <div>
+       <a href="https://www.facebook.com/ewbuw" class="social-icons">
+         <img src="website_images/facebook.png">
+       </a>
+ 
+       <a href="https://www.instagram.com/engineerswithoutbordersuw/" class="social-icons">
+         <img src="website_images/instagram.png">
+       </a>
+ 
+       <a href="mailto:uwaterloo@ewb.ca" class="social-icons">
+         <img src="website_images/mail.png">
+       </a>
+     </div>
+   </section>
+ 
+   <section class="by-line text-center p-1">
+     <a href="whoaweare.html" class="by-line">
+       Engineers Without Borders @ University of Waterloo (Published August 2021)
+     </a>
+   </section>
+ 
+</footer>
 </html>

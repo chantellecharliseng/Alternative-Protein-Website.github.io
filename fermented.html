@@ -4,9 +4,143 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Fermented</title>
+<!-- Link to stylesheet-->
+<link rel="stylesheet" href="style.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-   
+   <nav class = "navbar navbar-expand-md sticky-top">
+      <div class = "container-fluid">
+        <a class = "navbar-brand" href = "index.html">
+          <img src = "website_images/homephoto.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRespnsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <div class="dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdownArrow" data-toggle="dropdown" 
+                href="#">What Are Alternative Proteins</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="labgrown.html">Lab Grown Meat</a>
+                  <a class="dropdown-item" href="plantbased.html">Plant Based Meat</a>
+                  <a class="dropdown-item" href="fermented.html">Fermented Meat</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careerguide.html">Career Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipes.html">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="whoweare.html">Who We Are</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!--Image Slider-->
+   <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+      <!-- the data target references the div id, slides-->
+      <li data-target="#slides" data-slide-to="0"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+      <div class="carousel-item active" class="img-fluid">
+         <img src="website_images/tempeh.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption">
+            <p class="display-2">Fermented Alternative Meat</p>
+            <h3>Go traditional! People have been eating these proteins for more than 2000 years!</h3>
+         </div>
+      </div>
+      <div class="carousel-item carousel-item-expand">
+         <img src="website_images/tofu.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption col-xs-12">
+            <p class="display-2">Fermented Alternative Meat</p>
+            <h3>Want to eat cruelty-free meat? Go plant based!</h3>
+         </div>
+      </div>
+      <div class="carousel-item">
+         <img src="website_images/stickybeans.png" class="rounded mx-auto d-block">
+         <div class="carousel-caption col-xs-12">
+            <p class="display-2">Fermented Alternative Meat</p>
+            <h3>Want to eat cruelty-free meat? Go plant based!</h3>
+         </div>
+      </div>
+      </div>
+   </div>
+
+   <!-- Welcome Section-->
+   <div class="container-fluid padding">
+      <div class="row welcome text-center">
+      <div class="col-12">
+         <br>
+         <p class="display-4 Meat-Headings">Introduction</p>
+      </div>
+      <div class="col-12">
+         <p class="lead text-justify">
+            Fermentation is a powerful, flexible process for using microorganisms to produce alternative proteins. Fermentation has been used in food production for millennia. Ancient civilizations used microbial cultures to preserve foods, create alcoholic beverages, and improve the nutritional value and bioavailability of foods ranging from yogurt to tempeh. Over the past century, the role of fermentation has expanded far beyond its historical usage to a much broader range of applications. There are many uses of fermentation in the broader alt protein field.<br>
+            <br><hr><br>
+      </div>
+      <div class="col-12">
+         <p class="display-4">How Are Fermented Alternative Proteins Made?</p>
+      </div>
+      <div class="col-12">
+         <p class=  "lead text-justify" >
+            Fermentation for alternative proteins can be broken down into three categories: traditional fermentation, biomass fermentation, and precision fermentation. Traditional fermentation is the process of changing a food through microbial anaerobic digestion. Biomass fermentation uses the high-protein content and rapid growth of microorganisms to efficiently make large amounts of protein-rich food. Precision fermentation uses microorganisms to produce specific functional ingredients.
+            <br><br>
+         </p>
+      </div>
+      </div>
+   </div>
 </body>
+
+<!-- Footer -->
+<footer class=" text-center text-lg-start">
+   <!-- social media-->
+   <section class="contact-information d-flex justify-content-center justify-content-lg-between p-3 ">
+     <div class="d-none d-lg-block">
+       <p class="connect">Connect with us on social media!</p>
+     </div>
+     <div>
+       <a href="https://www.facebook.com/ewbuw" class="social-icons">
+         <img src="website_images/facebook.png">
+       </a>
+ 
+       <a href="https://www.instagram.com/engineerswithoutbordersuw/" class="social-icons">
+         <img src="website_images/instagram.png">
+       </a>
+ 
+       <a href="mailto:uwaterloo@ewb.ca" class="social-icons">
+         <img src="website_images/mail.png">
+       </a>
+     </div>
+   </section>
+ 
+   <section class="by-line text-center p-1">
+     <a href="whoaweare.html" class="by-line">
+       Engineers Without Borders @ University of Waterloo (Published August 2021)
+     </a>
+   </section>
+ 
+</footer>
 </html>
